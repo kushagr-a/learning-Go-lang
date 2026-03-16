@@ -1,0 +1,64 @@
+# Binaries
+
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.app
+
+# Go build
+
+/bin/
+/build/
+/dist/
+
+# Go modules
+
+/vendor/
+
+# Logs
+
+*.log
+
+# Environment files
+
+.env
+.env.local
+.env.development
+.env.production
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# IDE files
+
+.vscode/
+.idea/
+
+# Coverage files
+
+coverage.out
+*.coverprofile
+
+# Temporary files
+
+tmp/
+temp/
+
+# Docker
+
+docker-compose.override.yml
+
+# Node (if frontend included)
+
+node_modules/
+
+# Misc
+
+*.swp
+*.swo
